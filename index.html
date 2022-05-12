@@ -18,10 +18,17 @@
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
-  <header class="header">
-    <div class="container">
-      <a class="link" href="">hellish english</a>
-      <nav class="header-nav">
+  <!-- -----HEADER----- -->
+  <!-- <header class="header">
+    <div class="container header__container">
+      <nav class="navigation">
+        <a class="header-logo link" href="/" aria-label="логотип сайта">
+          <svg class="logo__img"
+          width="80"
+          height="29">
+        <use href="./image/icons.svg#icon-logo"></use>
+        </svg>
+        </a>
         <ul class="list header-list">
           <li class="header-list__item">
             <a class="link header-list__link" href="">Studying program</a>
@@ -37,10 +44,45 @@
           </li>
         </ul>
       </nav>
+      <button type="button" class="mobile-menu-btn"  data-menu-open>
+        <svg 
+          class="mobile-menu-btn__icon"
+          width="21"
+          height="12"
+          fill="black">
+          <use href="./image/icons.svg#icon-menu-btn"></use>
+        </svg>
+      </button>
       <button class="header-btn" type="button">consultation by phone</button>
-    </div>
+    </div> -->
+
+    <!-- -----MOBILE-MENU------ -->
+    <!-- <button type="button" class="mobile-menu__close-btn" data-menu-close>
+      <svg class="mobile-menu__close-icon"
+            width="20.5"
+            height="12">
+        <use href="./image/icons.svg#icon-close-btn"></use>
+      </svg>
+    </button>
+    <nav class="header-nav"></nav>
+      <ul class="mobile-menu__nav-list list">
+        <li class="mobile-menu__nav-item item">
+          <a class="mobile-menu__nav-link link" href="">Studying program</a>
+        </li>
+        <li class="mobile-menu__nav-item item">
+          <a class="mobile-menu__nav-link link" href="">about</a>
+        </li>
+        <li class="mobile-menu__nav-item item">
+          <a class="mobile-menu__nav-link link" href="">training options</a>
+        </li>
+        <li class="mobile-menu__nav-item item">
+          <a class="mobile-menu__nav-link link" href="">contacts</a>
+        </li>
+      </ul>
+    </nav> -->
+
   </header>
-  <!-- <main>
+  <main>
     <section>
       <h1>Complex preparation for English UPE</h1>
       <p>It won’t be easy. But you are guaranteed to get +25 points</p>
@@ -52,7 +94,7 @@
         height="718.08"
       />
     </section>
-    <section>
+    <!-- <section>
       <ul>
         <li>
           <p>Adapted author's UPE program</p>
@@ -218,8 +260,8 @@
         width="772"
         height="510"
         />
-    </section>
+    </section> -->
   </main> -->
-  
+  <script src="./js/menu.js"></script>
 </body>
 </html>

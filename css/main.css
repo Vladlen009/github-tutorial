@@ -37,4 +37,26 @@ img {
     width: 480px;
   }
 }
+
+.header-list {
+  display: none;
+}
+
+.header-btn {
+  display: none;
+}
+
+.logo {
+  padding-top: 20px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  padding-top: 20px;
+}
 /*# sourceMappingURL=main.css.map */
